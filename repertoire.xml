@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<repertoire>
+    <personne sexe="masculin">
+        <nom>Dupont</nom>
+        <prénom>Jean</prénom>
+        <adresse>
+            <num>8</num>
+            <voie type ="chemin">chemin des champs</voie>
+            <code_postal>68100</code_postal>
+            <ville>Mulhouse</ville>
+            <pays>France</pays>
+        </adresse>
+        <telephones>
+            <telephone type="mobile">0685146852</telephone>
+            <telephone type="bureau">0287453352</telephone>
+        </telepones>
+        <mails>
+            <mail type="perso">xxjeandu68@kikoo.fr</mail>
+            <mail type="pro">j.dupont@gmail.com</mail>
+        </mails>
+    </personne>
+
+    <personne sexe ="feminin">
+        <nom>Ronron</nom>
+        <prénom>Kathlyn</prénom>
+        <adresse>
+            <num>9</num>
+            <voie type="rue">rue des chats</voie>
+            <code_postal>68100</code_postal>
+            <ville>Mulhouse</ville>
+            <pays>France</pays>
+        </adresse>
+        <telephones>
+            <telephone type="mobile">0648394598</telephone>
+            <telephone type="bureau">0185868657</telephone>
+        </telephones>
+        <mails>
+            <mail type="perso">kitty@orange.fr</mail>
+            <mail type="pro">k.ronron@gmail.com</mail>
+        </mails>
+    </personne>
+</repertoire>
