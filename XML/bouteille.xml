@@ -17,7 +17,7 @@
             </ions_negatifs>
             <particule></particule>
             <ph>7,45</ph>
-            <suspension>fer</suspension>
+            <résidu>fer</résidu>
         </analse>
         <source departement="Loiret">St-Cyr</source>
         <code_barre>3274080005003</code_barre>
@@ -38,7 +38,7 @@
             </ions_negatifs>
             <particule></particule>
             <ph>7,4</ph>
-            <suspension></suspension>
+            <résidu></résidu>
         </analse>
         <source departement="Alpes Maritimes">Aurèle</source>
         <code_barre>3268840001008</code_barre>
@@ -59,6 +59,7 @@
             </ions_negatifs>
             <particule>silice</particule>
             <ph>7</ph>
+            <résidu></résidu>
         </analse>
         <source departement="">Volvic</source>
         <code_barre>3057640117008</code_barre>
