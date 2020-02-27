@@ -5,7 +5,7 @@
     <!-- bouteille 1 -->
     <bouteille>
         <marque>Cristaline</marque>
-        <contenance unité="centilitre">150</contenance>
+        <contenance unité="centiLitre">150</contenance>
         <analse>
             <ions_positifs>
                 <calcium unité="mg/l">71</calcium>
@@ -15,6 +15,7 @@
                 <chlorure unité="mg/l">20</chlorure>
                 <nitrate unité="mg/>l">1</nitrate>
             </ions_negatifs>
+            <particule></particule>
             <ph>7,45</ph>
             <suspension>fer</suspension>
         </analse>
@@ -25,7 +26,7 @@
     <!-- bouteille 2 -->
     <bouteille>
         <marque>Cristaline</marque>
-        <contenance unité="centilitre">50</contenance>
+        <contenance unité="centiLitre">50</contenance>
         <analse>
             <ions_positifs>
                 <calcium unité="mg/l">98</calcium>
@@ -35,7 +36,9 @@
                 <chlorure unité="mg/l">3,6</chlorure>
                 <nitrate unité="mg/>l">2</nitrate>
             </ions_negatifs>
+            <particule></particule>
             <ph>7,4</ph>
+            <suspension></suspension>
         </analse>
         <source departement="Alpes Maritimes">Aurèle</source>
         <code_barre>3268840001008</code_barre>
@@ -44,7 +47,7 @@
     <!-- bouteille 3 -->
     <bouteille>
         <marque>Volvic</marque>
-        <contenance unité="centilitre">50</contenance>
+        <contenance unité="centiLitre">50</contenance>
         <analse>
             <ions_positifs>
                 <calcium unité="mg/l">11,5</calcium>
