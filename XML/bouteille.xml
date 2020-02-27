@@ -7,14 +7,14 @@
         <marque>Cristaline</marque>
         <contenance unité="centilitre">150</contenance>
         <analse>
-            <ion_positif>
+            <ions_positifs>
                 <calcium unité="mg/l">71</calcium>
                 <magnesium unité="mg/l">5,5</magnesium>
-            </ion_positif>
-            <ion_negatif>
+            </ions_positifs>
+            <ions_negatifs>
                 <chlorure unité="mg/l">20</chlorure>
                 <nitrate unité="mg/>l">1</nitrate>
-            </ion_negatif>
+            </ions_negatifs>
             <ph>7,45</ph>
             <suspension>fer</suspension>
         </analse>
@@ -27,14 +27,14 @@
         <marque>Cristaline</marque>
         <contenance unité="centilitre">50</contenance>
         <analse>
-            <ion_positif>
+            <ions_positifs>
                 <calcium unité="mg/l">98</calcium>
                 <magnesium unité="mg/l">4,5</magnesium>
-            </ion_positif>
-            <ion_negatif>
+            </ions_positifs>
+            <ions_negatifs>
                 <chlorure unité="mg/l">3,6</chlorure>
                 <nitrate unité="mg/>l">2</nitrate>
-            </ion_negatif>
+            </ions_negatifs>
             <ph>7,4</ph>
         </analse>
         <source departement="Alpes Maritimes">Aurèle</source>
@@ -46,14 +46,14 @@
         <marque>Volvic</marque>
         <contenance unité="centilitre">50</contenance>
         <analse>
-            <ion_positif>
+            <ions_positifs>
                 <calcium unité="mg/l">11,5</calcium>
                 <magnesium unité="mg/l">8</magnesium>
-            </ion_positif>
-            <ion_negatif>
+            </ions_positifs>
+            <ions_negatifs>
                 <chlorure unité="mg/l">13,5</chlorure>
                 <nitrate unité="mg/>l">6,3</nitrate>
-            </ion_negatif>
+            </ions_negatifs>
             <particule>silice</particule>
             <ph>7</ph>
         </analse>
