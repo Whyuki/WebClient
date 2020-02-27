@@ -7,15 +7,19 @@
         <marque>Cristaline</marque>
         <contenance unité="centilitre">150</contenance>
         <analse>
-            <calcium ion="positif" unité="mg/l">71</calcium>
-            <magnesium ion="positif" unité="mg/l">5,5</magnesium>
-            <chlorure ion="negatif" unité="mg/l">20</chlorure>
-            <nitrate ion="negatif" unité="mg/>l">1</nitrate>
+            <ion_positif>
+                <calcium unité="mg/l">71</calcium>
+                <magnesium unité="mg/l">5,5</magnesium>
+            </ion_positif>
+            <ion_negatif>
+                <chlorure unité="mg/l">20</chlorure>
+                <nitrate unité="mg/>l">1</nitrate>
+            </ion_negatif>
             <ph>7,45</ph>
+            <suspension>fer</suspension>
         </analse>
         <source departement="Loiret">St-Cyr</source>
         <code_barre>3274080005003</code_barre>
-        <suspension_bouteille>fer</suspension_bouteille>
     </bouteille>
 
     <!-- bouteille 2 -->
@@ -23,10 +27,14 @@
         <marque>Cristaline</marque>
         <contenance unité="centilitre">50</contenance>
         <analse>
-            <calcium ion="positif" unité="mg/l">98</calcium>
-            <magnesium ion="positif" unité="mg/l">4</magnesium>
-            <chlorure ion="negatif" unité="mg/l">3,6</chlorure>
-            <nitrate ion="negatif" unité="mg/>l">2</nitrate>
+            <ion_positif>
+                <calcium unité="mg/l">98</calcium>
+                <magnesium unité="mg/l">4,5</magnesium>
+            </ion_positif>
+            <ion_negatif>
+                <chlorure unité="mg/l">3,6</chlorure>
+                <nitrate unité="mg/>l">2</nitrate>
+            </ion_negatif>
             <ph>7,4</ph>
         </analse>
         <source departement="Alpes Maritimes">Aurèle</source>
@@ -38,12 +46,16 @@
         <marque>Volvic</marque>
         <contenance unité="centilitre">50</contenance>
         <analse>
-            <calcium ion="positif" unité="mg/l">11,5</calcium>
-            <magnesium ion="positif" unité="mg/l">8</magnesium>
-            <chlorure ion="negatif" unité="mg/l">13,5</chlorure>
-            <nitrate ion="negatif" unité="mg/>l">6,3</nitrate>
-            <ph>7</ph>
+            <ion_positif>
+                <calcium unité="mg/l">11,5</calcium>
+                <magnesium unité="mg/l">8</magnesium>
+            </ion_positif>
+            <ion_negatif>
+                <chlorure unité="mg/l">13,5</chlorure>
+                <nitrate unité="mg/>l">6,3</nitrate>
+            </ion_negatif>
             <particule>silice</particule>
+            <ph>7</ph>
         </analse>
         <source departement="">Volvic</source>
         <code_barre>3057640117008</code_barre>
