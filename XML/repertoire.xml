@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <repertoire>
+
     <!-- personne 1 -->
     <personne sexe="masculin">
         <nom>Dupont</nom>
         <prenom>Jean</prenom>
         <adresse>
             <num>8</num>
-            <voie type ="chemin">chemin des champs</voie>
+            <voie type="chemin">chemin des champs</voie>
             <code_postal>68100</code_postal>
             <ville>Mulhouse</ville>
             <pays>France</pays>
@@ -21,8 +22,9 @@
             <mail type="pro">j.dupont@gmail.com</mail>
         </mails>
     </personne>
+
     <!-- personne 2 -->
-    <personne sexe ="feminin">
+    <personne sexe="feminin">
         <nom>Ronron</nom>
         <prenom>Kathlyn</prenom>
         <adresse>
@@ -41,6 +43,7 @@
             <mail type="pro">k.ronron@gmail.com</mail>
         </mails>
     </personne>
+    
     <!-- personne 3 -->
     <personne sexe="feminin">
         <nom>Draw</nom>
@@ -57,8 +60,8 @@
             <telephone type="bureau">0257965498</telephone>
         </telephones>
         <mails>
-            <mail type ="perso">cloclo@free.fr</mail>
-            <mail typer ="pro">c.draw@gmail.com</mail>
+            <mail type="perso">cloclo@free.fr</mail>
+            <mail typer="pro">c.draw@gmail.com</mail>
         </mails>
     </personne>
 </repertoire>
