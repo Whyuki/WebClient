@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tableaux</title>
+    <style>
+        td {
+            border: 1px solid black;
+        }
+
+        th {
+            border: 1px solid rgb(255, 4, 4);
+        }
+
+        caption {
+            border: 1px solid rgb(50, 57, 156);
+        }
+    </style>
+</head>
+
+<body>
+    <!--table>tr*2>td*3-->
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    </table>
+    <br />
+
+
+    <!--table>tr*2>td{elem $}*3-->
+    <table>
+        <tr>
+            <td>elem 1</td>
+            <td>elem 2</td>
+            <td>elem 3</td>
+        </tr>
+        <tr>
+            <td>elem 1</td>
+            <td>elem 2</td>
+            <td>elem 3</td>
+        </tr>
+    </table>
+    </table>
+    <br />
+
+    <!--table>th+tr*2>td*3-->
+    <table>
+        <th>entete</th>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+    </table>
+    <br />
+
+    <table>
+        <caption>FRUITS</caption>
+        <tr>
+            <th>fruits</th>
+            <th>poids</th>
+            <th>prix</th>
+        </tr>
+        <tr>
+            <td>kiwi</td>
+            <td>3kg</td>
+            <td>2€</td>
+        </tr>
+        <tr>
+            <td>banane</td>
+            <td>2kg</td>
+            <td>1€</td>
+        </tr>
+    </table>
+    </table>
+    <br />
+
+    <!--FUSION-->
+    <!--colonne-->
+    <table>
+        <tr>
+            <th colspan="3">titre</th>
+        </tr>
+        <tr>
+            <td>ligne 2 colonne 1</td>
+            <td>ligne 2 colonne 2</td>
+            <td>ligne 2 colonne 3</td>
+        </tr>
+    </table>
+    <br />
+    
+    <!--ligne-->
+    <table>
+        <tr>
+            <td rowspan="2">ligne 1 et 2 colonne 1</td>
+            <td>ligne 1 colonne 2</td>
+            <td rowspan="3">ligne 1,2,3 colonne 3</td>
+        </tr>
+        <tr>
+            <td>ligne 2 colonne 2</td>
+        </tr>
+        <tr>
+            <td>ligne 3 colonne 1</td>
+            <td>ligne 3 colonne 2</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulaires</title>
+</head>
+
+<body>
+
+    <form method="post" action="traitement.php">
+        <!--balise input autofermante !!!-->
+        <!--nom = valeur, invisible sur la page-->
+        <!--balise label : décrit à un être humain la fonction du champ (puisque name est invisible)-->
+        <label for="nom">Votre nom</label>
+        <input value="Stephanie" type="text" id="nom" name="nom" />
+    </form>
+
+    <form method="post" action="traitement.php">
+        <!--placeholder="" indication /!\ ne remplace PAS le label-->
+        <label for="prenom">Votre prénom</label>
+        <input placeholder="Stephanie" type="text" id="prenom" name="prnom">
+    </form>
+    <!--lient for/id : doit être identique-->
+
+
+
+    <!--zone de texte multi-ligne-->
+
+    <!--pas d'atribut value-->
+    <label for="mon_texte">Que souhaitez-vous dire ?</label>
+    <textarea name="montext" id="mon_texte" cols="30" rows="10"></textarea>
+
+
+    <!--cases à cocher-->
+
+    <p>
+        <input type="checkbox" id="jazz" name="jazz" />
+        <label for="jazz">Le Jazz</label>
+    </p>
+
+    <p>
+        <input type="checkbox" id="techno" name="techno" />
+        <label for="techno">La techno</label>
+    </p>
+
+    <p>
+        <!--pré-cocher avec checked-->
+        <input type="checkbox" id="rock" name="rock" checked="checked" />
+        <label for="rock">Le rock</label>
+    </p>
+
+    <!--radio-->
+    <p>Vous êtes :
+        <input type="radio" name="sexe" value="femme" id="femme" /> 
+        <label for="femme">une femme</label>
+        <input type="radio" name="sexe" value="homme" id="homme" /> 
+        <label for="homme">un homme</label>
+        <input type="radio" name="sexe" value="nspp" id="nspp" /> 
+        <label for="nspp">je préfère ne pas répondre</label>
+    </p>
+
+
+</body>
+
+</html>
