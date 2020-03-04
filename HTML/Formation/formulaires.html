@@ -12,57 +12,129 @@
     <p><a href="index.html">accueil</a></p>
 
     <form method="post" action="traitement.php">
+        <h2>Formulaire tests divers</h2>
+
         <!--balise input autofermante !!!-->
         <!--nom = valeur, invisible sur la page-->
         <!--balise label : décrit à un être humain la fonction du champ (puisque name est invisible)-->
-        <label for="nom">Votre nom</label>
-        <input value="Stephanie" type="text" id="nom" name="nom" />
-    </form>
+        <p>
+            <label for="nom">Votre nom : </label>
+            <input value="Stephanie" type="text" id="nom" name="nom" />
+        </p>
 
-    <form method="post" action="traitement.php">
         <!--placeholder="" indication /!\ ne remplace PAS le label-->
-        <label for="prenom">Votre prénom</label>
-        <input placeholder="Stephanie" type="text" id="prenom" name="prnom">
+        <p>
+            <label for="prenom">Votre prénom : </label>
+            <input placeholder="Stephanie" type="text" id="prenom" name="prenom">
+        </p>
+        <!--lien for/id : doit être identique-->
+
+
+
+        <!--zone de texte multi-ligne-->
+
+        <!--pas d'atribut value-->
+        <label for="mon_texte">Que souhaitez-vous dire ?</label> <br/>
+        <textarea name="montext" id="mon_texte" cols="30" rows="10"></textarea>
+
+
+        <!--cases à cocher-->
+        <!--plusieurs choix possibles-->
+        <h4>Votre musique préférée ?</h4>
+        <p>
+            <input type="checkbox" id="jazz" name="jazz" />
+            <label for="jazz">Le Jazz</label>
+        </p>
+        <p>
+            <input type="checkbox" id="techno" name="techno" />
+            <label for="techno">La techno</label>
+        </p>
+        <p>
+            <!--pré-cocher avec checked-->
+            <input type="checkbox" id="rock" name="rock" checked="checked" />
+            <label for="rock">Le rock</label>
+        </p>
+
+        <!--radio-->
+        <!-- un seul choix-->
+        <!--value : ce qui est envoyé au serveur !-->
+        <p>Vous êtes :
+            <input type="radio" name="sexe" value="femme" id="femme" />
+            <label for="femme">une femme</label>
+            <input type="radio" name="sexe" value="homme" id="homme" />
+            <label for="homme">un homme</label>
+            <input type="radio" name="sexe" value="nspp" id="nspp" />
+            <label for="nspp">je préfère ne pas répondre</label>
+        </p>
+
+
+        <!--liste déroulante / select et option-->
+        <!--objet de la liste-->
+        <!--value : ce qui est envoyé au serveur !-->
+        <p>
+            <label for="pays">De quel pays venez vous ?</label>
+            <select name="pays" id="pays">
+                <option value="">Sélectionnez un pays</option>
+                <option value="france">France</option>
+                <option value="suisse">Suisse</option>
+                <option value="allemagne">Allemagne</option>
+                <option value="espagne">Espagne</option>
+            </select>
+        </p>
+
+
+        <!--envoyer / submit-->
+        <!--un seul par formulaire-->
+        <!--value = titre du bouton-->
+        <!--envoie poue le traitement au fichier défini dans action=""-->
+        <input type="submit" value="Envoyer" />
+
+
+        <!--reset / reint TOUTES les données du formulaire-->
+        <input type="reset" value="Remise à zéro" />
+
+
+        <!--bouton button-->
+        <!--syntaxe différente de la balise input-->
+        <!--possibilité d'ajouter des images-->
+        <!--balise non auto-fermante-->
+        <!--button : bouton cliquable (utilisable en JavaScript)-->
+        <!--reset : remise à zéro du formulaire-->
+        <!--submit : envoyer le formulaire-->
+        <p>
+            <button type="button">Cliquez moi</button>
+            <button type="submit">Envoyer</button>
+            <button type="reset">Reset</button>
+        </p>
+
+
+        <!--disabled : attribut qui permet de désactiver un champ-->
+        <!--exemple : désactiver le champ d'envoi jusqu'à ce que toutes les données soient remplies-->
+        <!--fonction qui vérifie si les champs sont remplis en JavaScript-->
+        <input type="submit" value="Envoyer (ou pas)" disabled="disabled">
+        <input type="submit" value="toujours pas" disabled>
+
+
+        <!--hidden : cacher un champ-->
+        <!-- plusieurs utilités : ex: cacher des informations ou en fonction des champs autour-->
+        <!-- exemple : formulaire qui s'affiche progressivement : nom/prenom remplis avant de demander l'adresse..-->
+        <h2>cache-cache</h2>
+        <input type="hidden" name="key" value="masupercleesecrète" />
+        <label for="nom">Nom : </label><input type="text" name="nom" id="nom">
+
+        <!--mot de passe-->
+        <!-- input type="password" : masquer le mdp-->
+        <p>
+            <h4>Password : </h4>
+            <input type="password" id="password" name="password" />
+        </p>
+
+
+        <!--upload-->
+        <!--selectionner un fichier à envoyer vers le serveur // affichage et recherche seulement-->
+        <input type="file" name="myfile">
+
     </form>
-    <!--lient for/id : doit être identique-->
-
-
-
-    <!--zone de texte multi-ligne-->
-
-    <!--pas d'atribut value-->
-    <label for="mon_texte">Que souhaitez-vous dire ?</label>
-    <textarea name="montext" id="mon_texte" cols="30" rows="10"></textarea>
-
-
-    <!--cases à cocher-->
-
-    <p>
-        <input type="checkbox" id="jazz" name="jazz" />
-        <label for="jazz">Le Jazz</label>
-    </p>
-
-    <p>
-        <input type="checkbox" id="techno" name="techno" />
-        <label for="techno">La techno</label>
-    </p>
-
-    <p>
-        <!--pré-cocher avec checked-->
-        <input type="checkbox" id="rock" name="rock" checked="checked" />
-        <label for="rock">Le rock</label>
-    </p>
-
-    <!--radio-->
-    <p>Vous êtes :
-        <input type="radio" name="sexe" value="femme" id="femme" />
-        <label for="femme">une femme</label>
-        <input type="radio" name="sexe" value="homme" id="homme" />
-        <label for="homme">un homme</label>
-        <input type="radio" name="sexe" value="nspp" id="nspp" />
-        <label for="nspp">je préfère ne pas répondre</label>
-    </p>
-
 
 </body>
 
