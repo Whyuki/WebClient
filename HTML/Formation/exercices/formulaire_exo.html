@@ -15,19 +15,19 @@
     <h3>Coordonnées</h3>
     <form method="post" action="traitement.php">
         <p>
-            <label for="nom">Nom</label>
+            <label for="nom"><strong>Nom</strong></label> <br />
             <input type="text" id="nom" name="nom" />
         </p>
         <p>
-            <label for="prenom">Prenom</label>
+            <label for="prenom"><strong>Prenom</strong></label> <br />
             <input type="text" id="prenom" name="prenom" />
         </p>
         <p>
-            <label for="doc">Je désire recevoir une documentation</label>
+            <label for="doc"><strong>Je désire recevoir une documentation</strong></label>
             <input type="checkbox" id="doc" name="doc" />
         </p>
         <p>
-            <label for="pays-select">Pays</label>
+            <label for="pays-select"><strong>Pays</strong></label>
             <select name="pays" id="pays-select">
                 <option value="">Choisir un pays</option>
                 <option value="France">France</option>
@@ -35,7 +35,7 @@
                 <option value="Allemagne">Allemagne</option>
             </select>
         </p>
-        <p>Sexe :
+        <p><strong>Sexe :</strong>
             <input type="radio" name="sexe" value="femme" id="femme" /> <label for="femme">Féminin</label>
             <input type="radio" name="sexe" value="homme" id="homme" /> <label for="homme">Masculin</label>
         </p>
@@ -52,15 +52,15 @@
         </div>
 
         <div>
+            <h3>Commentaire</h3>
             <label for="commentaire">
-                <h4>Commentaire</h4>
-                <p>Si vous le souhaitez, vous pouvez décrire vos activités ou intérets :</p>
+                Si vous le souhaitez, vous pouvez décrire vos activités ou intérets :
             </label>
             <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea>
         </div>
 
         <input type="reset" value="Effacer les données" />
-        <input type="submit" value="Enregistrer les données" disabled />
+        <input type="submit" value="Enregistrer les données" />
 
     </form>
 
