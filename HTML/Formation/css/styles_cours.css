@@ -1,0 +1,50 @@
+body {
+    font-family: 'Crete Round', serif;
+    background-image: url(images/pixel-heart.png);
+       width: 100%;
+
+    }
+    
+    nav {
+        width: 100%;
+        position: fixed;
+        background-color: blueviolet;
+    }
+    
+    div {
+        font-family: 'Crete Round', serif;
+        font-size: 22px;
+        font-style: italic;
+        
+        width: 50%;
+    }
+    
+    .div1 {
+        width: 25%;
+        font-weight: bolder;
+        background-color: burlywood;
+    }
+    
+    .divine {
+        background-color: blue;
+        width: 45%;
+    }
+    
+    .divine p{
+        background-color: pink;
+    }
+    
+    h1 {
+        color: rgb(213, 112, 216);
+        border: 5px solid crimson;
+}
+
+h2 {
+    background-color: rgb(22, 16, 100);
+    color: white;
+}
+
+p {
+    background-color: rgb(127, 187, 187);
+    margin-bottom: 45px;
+}
