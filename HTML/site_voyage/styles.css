@@ -1,8 +1,30 @@
+
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+   margin: 0%;
+}
+nav {
+    text-align: right;
+}
 h1 {
     font-family: 'Crete Round', serif;
 }
 
 article {
-    border: 5px solid purple;
+    border: 2px dotted purple;
 }
 
+#main {
+    width: 100%;
+    text-align: center;
+    }
+
+.step {
+width: 15%;
+text-align: center;
+    }
