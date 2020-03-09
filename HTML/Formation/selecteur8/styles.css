@@ -1,0 +1,4 @@
+/* selectionne le li qui suit DIRRECTEMENT (le premier) li*/
+li:first-of-type + li {
+color: red;
+}
