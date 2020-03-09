@@ -1,3 +1,4 @@
+/* sélectionne tous les éléments qui suivent blockquote */
 blockquote ~ p {
     font-size: 2em;
     color: blueviolet;
