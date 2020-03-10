@@ -1,7 +1,26 @@
+
+
+/*selector universel sur tous les éléments*/
 * {
 font-size: 1.1em;
 }
 
-h1 ~ p {
-    color: blueviolet;
+/*selector sur le p qui suive un hn*/
+h1 ~ p, h2 ~ p, h3 ~ p, h4 ~ p, h5 ~ p, h6 ~ p {
+    font-weight: bold;
+}
+
+/*selector sur les liens qui suivent directement un p*/
+p + a {
+    color: red;
+}
+
+/*selector sur tous les liens qui sont descendants d'une section*/
+section a {
+    font-style: italic;
+}
+
+/*selector sur les p qui sont descendants direct d'une section*/
+section > p {
+    background-color:palevioletred;
 }
