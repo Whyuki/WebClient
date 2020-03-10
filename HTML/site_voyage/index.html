@@ -23,15 +23,16 @@
     </header>
 
     <section id="main">
-        <img src="images/main.jpg" alt="">
-        <article id="lien-image">
-            Organisez votre voyage sur mesure
-            <button type="button">Par ici</button>
+        <article class="centre">
+            <p id="lien-image">
+                Organisez votre voyage sur mesure
+            </p>
+            <button type="button" id="par-ici">Par ici</button>
         </article>
     </section>
     
 
-    <section class="destination">
+    <section class="centre">
         <article class="step">
             <img src="images/steps-icon-1.png" alt="">
             <h3>Planifier</h3>
@@ -59,37 +60,40 @@
 
     </section>
 
-    <article>
-        Partez en famille
-        offez le meilleur à ceux que vous aimez et partagez des moments fabuleux :
-        Plus d'infos
-    </article>
+    <section class="centre">
+        <article>
+            Partez en famille
+            offez le meilleur à ceux que vous aimez et partagez des moments fabuleux :
+            Plus d'infos
+        </article>
+    
+        <article>
+            Envie de s'évader
+            Parfois un peu d'évasion serait le bienvenue et ferait le plus grand bien :
+            Plus d'infos
+        </article>
 
-    <article>
-        Envie de s'évader
-        Parfois un peu d'évasion serait le bienvenue et ferait le plus grand bien :
-        Plus d'infos
-    </article>
+    </section>
 
-    <section id="contact">
+    <section class="centre" id="contact">
         <h2>Contactez-nous</h2>
         Chez Travel Agency nous savons que voyager est une aventure humaine mais également un engagement financier
         important
         pour vous. C'est pourquoi nous mettons un point d'honneur à prendre en compte chacune de vos attentes pour vous
         aider dans la préparation de votre séjour, circuit ou voyage sur mesure.
+        
+        <form action="">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" placeholder="Votre nom" />
+            
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Votre email" />
+            
+            <input type="submit" value="OK">
+        </form>
     </section>
-
-    <form action="">
-        <label for="nom">Nom</label>
-        <input type="text" id="nom" placeholder="Votre nom" />
-
-        <label for="email">Email</label>
-        <input type="text" id="email" placeholder="Votre email" />
-
-        <input type="submit" value="OK">
-    </form>
-
-    <footer>
+        
+    <footer class="centre">
         <h1>Travel Agency.</h1>
     </footer>
 
