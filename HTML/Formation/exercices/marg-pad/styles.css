@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    z-index: 5;
+    background-color: rgb(139, 0, 0);
+    height: 200px;
+    width: 200px;
+}
+
+.div2 {
+    z-index: 4;
+    background-color: rgba(0, 139, 139, 0.527);
+    height: 200px;
+    width: 200px;
+}
+
+.div3 {
+    z-index: 3;
+    background-color: rgba(137, 43, 226, 0.514);
+    height: 200px;
+    width: 200px;
+}
+
+.div4 {
+    z-index: 2;
+    background-color: rgb(219, 162, 17);
+    height: 200px;
+    width: 200px;
+}
+
+.div5 {
+    z-index: 1;
+    background-color: rgba(0, 206, 209, 0.486);
+    height: 200px;
+    width: 200px;
+    margin: -300px 100px;
+    border: 2px solid black;
+}
+
+.lign {
+    display: inline-block;
+    }

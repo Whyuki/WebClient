@@ -1,0 +1,22 @@
+.div1 {
+background-color: crimson;
+height: 150px;
+}
+
+.div2 {
+    background-color: darkcyan;
+    width: 200px;
+    height: 150px;
+}
+
+.div3 {
+background-color: blueviolet;
+width: 50%;
+height: 150px;
+}
+
+.div4 {
+background-color: darkgoldenrod;
+width: 50%;
+height: 100px;
+}
