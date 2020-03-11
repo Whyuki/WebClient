@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    background-color: rgba(120, 216, 128, 0.623);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: blue;
+}
+
+li {
+    background-color: pink;
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+}

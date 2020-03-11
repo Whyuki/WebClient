@@ -1,0 +1,16 @@
+* {
+    width: 80%;
+}
+
+
+.displaynone {
+    display: none;
+}
+
+.visibilityhidden {
+    visibility: hidden;
+}
+
+p {
+    background-color: aqua;
+}

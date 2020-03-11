@@ -11,33 +11,34 @@ body {
 
 .centre {
     width: 50%;
-    margin: 0 auto;
-    padding: 0 10px;
+    margin: auto;
+    padding: auto;
     box-sizing: border-box;
-    }
+}
 
-    .destination {
-        width: 50%;
-    }
+.destination {
+    width: 50%;
+}
 
 header {
-   margin: 0px;
-   padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
+
 nav {
     text-align: right;
 }
+
 #lien-image {
     font-size: 2em;
     margin: auto;
-    }
-
+}
 
 button#par-ici {
     width: 120px;
     height: 50px;
-    border-radius : 1px;
-    font-size: 1.2em;
+    border-radius: 1px;
+    font-size: 1.1em;
     color: white;
     background-color: rgb(255, 122, 0);
     margin-bottom: auto;
@@ -47,7 +48,7 @@ h1 {
     font-family: 'Crete Round', serif;
 }
 
-article {
+article, ul, li {
     border: 2px dotted purple;
 }
 
@@ -55,14 +56,17 @@ article {
     height: 580px;
     background-image: url(images/main.jpg);
     text-align: center;
-    }
+}
 
+ul {
+    margin: auto;
+    padding-left: 50px;
+}
 
-
-.step {
-width: 30%;
-text-align: center;
-display: inline-block;
-margin: -0.5%;
-    }
-
+li {
+    width: 31%;
+    text-align: center;
+    display: inline-block;
+    margin: 25px 0;
+    box-sizing: border-box;
+}
