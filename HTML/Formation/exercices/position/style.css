@@ -1,0 +1,15 @@
+
+p {
+    border: 2px dotted purple;
+    width: 200px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+  
+   
+}
+
+.fix {
+    position: fixed;
+    background-color: aqua;
+   }
