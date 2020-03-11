@@ -33,13 +33,14 @@
 
 .div5 {
     z-index: 1;
-    background-color: rgba(0, 206, 209, 0.486);
+    background-color: rgba(17, 219, 84, 0.795);
     height: 200px;
     width: 200px;
-    margin: -300px 100px;
+    margin: -300px auto;
     border: 2px solid black;
 }
 
-.lign {
-    display: inline-block;
-    }
+.droite {
+    margin-left: 90%;
+    margin-top: -400px;
+}

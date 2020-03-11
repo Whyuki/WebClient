@@ -13,7 +13,12 @@ body {
     width: 50%;
     margin: 0 auto;
     padding: 0 10px;
-}
+    box-sizing: border-box;
+    }
+
+    .destination {
+        width: 50%;
+    }
 
 header {
    margin: 0px;
@@ -24,7 +29,9 @@ nav {
 }
 #lien-image {
     font-size: 2em;
-}
+    margin: auto;
+    }
+
 
 button#par-ici {
     width: 120px;
@@ -56,5 +63,6 @@ article {
 width: 30%;
 text-align: center;
 display: inline-block;
+margin: -0.5%;
     }
 
