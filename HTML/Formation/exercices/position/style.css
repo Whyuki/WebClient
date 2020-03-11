@@ -11,6 +11,8 @@ p {
 
 .fix {
     position: fixed;
-    
+    left: 400px;
     background-color: rgba(0, 255, 255, 0.541);
    }
+
+   
