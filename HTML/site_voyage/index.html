@@ -19,7 +19,7 @@
                 <ul class="menu">
                     <li><a href="#accueil">accueil</a></li>
                     <li><a href="#destinations">destinations</a></li>
-                    <li><a href="#circuits">circuits</a></li>
+                    <li><a href="#circuit">circuits</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
             </nav>
@@ -44,14 +44,17 @@
     </section>
 
 
-    <ul class="centre step" id="destinations">
+    <ul class="centre step" id="desti">
         <li class="step">
             <img src="images/steps-icon-1.png" alt="">
             <h3>Planifier</h3>
             <br>
             <p>
-                Confiez-nous vos rêves d'évasion : en famille ou entre amis, nous trouverons la formule qui comblera vos
-                attentes.
+                <small>
+                    Confiez-nous vos rêves d'évasion : en famille ou entre amis, nous trouverons la formule qui comblera
+                    vos
+                    attentes.
+                </small>
             </p>
         </li>
 
@@ -60,8 +63,11 @@
             <h3>Organiser</h3>
             <br>
             <p>
-                Bénéficiez de l'expertise de nos spécialistes de chaque destination, ils vous accompagnent dans la
-                réalisation de votre voyage.
+                <small>
+                    Bénéficiez de l'expertise de nos spécialistes de chaque destination, ils vous accompagnent dans la
+                    réalisation de votre voyage.
+
+                </small>
             </p>
         </li>
 
@@ -70,44 +76,47 @@
             <h3>Voyager</h3>
             <br>
             <p>
-                Nous nous chargeons d'assurer votre sécurité et de veiller à votre pleine sérénité tout au long de votre
-                voyage.
+                <small>
+                    Nous nous chargeons d'assurer votre sécurité et de veiller à votre pleine sérénité tout au long de
+                    votre
+                    voyage.
+                </small>
             </p>
         </li>
     </ul>
 
-    <section class="destination">
+    <section class="circuit" id="circuit">
         <div class="centre"></div>
-        <article id="dest1">
-            <div>
+        <article id="partir">
+            <div class="blanc">
                 <h3>
                     Partez en famille
                 </h3>
                 <p>
                     <small>
 
-                        Offez le meilleur à ceux <br> que vous aimez et <br> partagez des moments fabuleux :
+                        Offez le meilleur à ceux <br> que vous aimez et <br> partagez des moments fabuleux !
                     </small>
                 </p>
                 <a href="">Plus d'infos</a>
             </div>
         </article>
 
-        <article id="dest2">
-            <div>
+        <article id="evad">
+            <div class="blanc">
                 <h3>Envie de s'évader</h3>
                 <p>
                     <small>
-                        Parfois un peu d'évasion <br> serait le bienvenue et <br> ferait le plus grand bien :</p>
-                    </small>
+                        Parfois un peu d'évasion <br> serait le bienvenue et <br> ferait le plus grand bien !</p>
+                </small>
                 <a href="">Plus d'infos</a>
             </div>
         </article>
 
     </section>
 
-    <section class="centre" id="contact">
-        <h2>Contactez-nous</h2>
+    <section class="centre contactez" id="contact">
+        <h2> Contactez-nous</h2>
 
         <p>
             Chez Travel Agency nous savons que voyager est une aventure humaine mais également un engagement financier
@@ -117,17 +126,18 @@
 
         <form action="">
             <label for="nom">Nom</label>
-            <input type="text" id="nom" placeholder="Votre nom" />
+            <input type="text" id="nom" placeholder=" Votre nom" />
 
             <label for="email">Email</label>
-            <input type="text" id="email" placeholder="Votre email" />
+            <input type="text" id="email" placeholder=" Votre email" />
 
-            <input type="submit" value="OK">
+            <input type="submit" value="OK" id="ok">
         </form>
     </section>
 
     <footer>
         <h1 class="centre">Travel Agency<span class="orange">.</span></h1>
+        <br>
         <small>Copyright © Tous droits réservés.</small>
     </footer>
 

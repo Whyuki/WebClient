@@ -1,19 +1,20 @@
 /*général*/
 
 * {
-    
     margin: 0;
     padding: 0;
+    /*  border: 0.5px dotted black; */
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    color: rgb(68, 68, 68);
     width: 100%;
 }
 
 h1 {
     font-family: 'Crete Round', serif;
+    font-size: 2.5em;
 }
 
 .orange {
@@ -27,14 +28,15 @@ li {
 .centre {
     width: 50%;
     margin: auto;
-    padding: auto;
-    box-sizing: border-box;
+}
+
+small {
+    color: rgb(119, 119, 119);
 }
 
 /*header*/
 
 header {
-    
     height: 120px;
 }
 
@@ -43,25 +45,25 @@ header {
 }
 
 header h1 {
-    color: rgb(68, 68, 68);
     margin-top: 25px;
     float: left;
 }
 
 nav {
-     float: right;
-    margin-top: -30px;
-    margin-right: 50%;
+    float: right;
+    margin-top: 50px;
     text-transform: uppercase;
 }
 
 .menu li {
-   
     display: inline-block;
+    padding: 5px;
 }
 
 nav a {
     text-decoration: none;
+    color: rgb(68, 68, 68);
+    font-weight: bold;
 }
 
 /*main*/
@@ -70,23 +72,20 @@ h2 {
     text-transform: uppercase;
     font-size: 1.3em;
     font-weight: initial;
-    color: rgb(68, 68, 68);
 }
 
 h3 {
     text-transform: uppercase;
     font-size: 1.1em;
-    border-bottom: 1px solid rgb(221, 221, 221);
     margin: 15px;
-    padding: 15px;
-    
+    padding: 15px 0 15px 0;
 }
 
 #lien-image {
     font-size: 2em;
     margin: auto;
     position: relative;
-    top: 250px;
+    top: 180px;
 }
 
 a#par-ici {
@@ -96,70 +95,79 @@ a#par-ici {
     color: white;
     background-color: rgb(255, 122, 0);
     margin-bottom: auto;
-    padding: 15px;
+    padding: 15px 25px;
     position: relative;
-    top: 280px;
+    top: 250px;
 }
 
 #main {
     height: 600px;
-    background-image: url(images/main.jpg);
+    background: url(images/main.jpg) center;
     text-align: center;
 }
 
 /*steps*/
 
 li.step {
-    width: 31%;
     text-align: center;
+    margin: 0;
+    width: 300px;
     display: inline-block;
-    margin: 25px 0;
-    box-sizing: border-box;
 }
 
-/*destinations*/
+li.step:first-child {
+    margin-left: 15px;
+}
 
-#destinations {
+#desti {
     margin: auto;
-    padding-left: 50px;
+    padding: 25px;
     text-decoration: none;
 }
 
-.destination article {
-    width: 460px;
+/* circuit*/
+
+#partir {
+    background-image: url(images/article-image-1.jpg)
+}
+
+#evad {
+    background-image: url(images/article-image-2.jpg)
+}
+
+.circuit article {
+    width: 420px;
     height: 270px;
     border-radius: 10px;
     display: inline-block;
-    margin: 55px 10px;
+    margin: 50px 10px;
 }
 
-.destination article:first-of-type {
-    margin-left: 25%;
+.circuit article:first-of-type {
+    margin-left: 27%;
 }
 
-.destination div {
+.blanc {
     background-color: rgba(255, 255, 255, 0.849);
     width: 40%;
     height: 100%;
     text-align: center;
     border-radius: 9px 0px 0px 9px;
+    /*
+    */
+}
+
+.circuit div {
     position: relative;
     top: -15px;
 }
 
-.destination {
-    background-color: rgb(239, 239, 239);
+.circuit h3 {
+    border-bottom: 1px solid rgb(221, 221, 221);
 }
 
-.destination p {
-    padding-top: 5%;
-    font-style: italic;
-    color: rgb(68, 68, 68);
-    padding-bottom: 15%;
-}
-
-.destination a {
-    font-size: 0.9em;
+.circuit a {
+    font-size: 0.8em;
     width: 50px;
     height: 25px;
     color: white;
@@ -169,12 +177,27 @@ li.step {
     padding: 5px;
 }
 
-#dest1 {
-    background-image: url(images/article-image-1.jpg)
+.circuit p {
+    padding-top: 5%;
+    font-style: italic;
+    padding-bottom: 25%;
+    display: block;
 }
 
-#dest2 {
-    background-image: url(images/article-image-2.jpg)
+.circuit {
+    background-color: rgb(239, 239, 239);
+}
+
+/*contact*/
+
+.contactez h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    display: block;
+    width: 350px;
+    margin: auto;
+    border-bottom: 1px solid rgb(2, 184, 221);
+    padding: 5px 0 25px 0;
 }
 
 #contact {
@@ -184,20 +207,39 @@ li.step {
 
 #contact p {
     margin: 30px auto;
+    color: rgb(119, 119, 119);
 }
 
 form {
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
-input {}
+input {
+    width: 200px;
+    height: 30px;
+    margin: 00 10px;
+}
+
+#ok {
+    width: 40px;
+    height: 35px;
+    background-color: rgb(2, 184, 221);
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+input[placeholder] {
+    font-size: 1em;
+}
 
 /*footer*/
 
 footer {
     width: 100%;
     color: white;
-    background-color: rgb(119, 119, 119);
+    background-color: rgb(68, 68, 68);
     text-align: center;
     padding: 50px;
     box-sizing: border-box;
