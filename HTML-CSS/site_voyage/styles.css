@@ -3,12 +3,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     /*  border: 0.5px dotted black; */
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(68, 68, 68);
+    color: #444;
     width: 100%;
 }
 
@@ -28,6 +29,7 @@ li {
 .centre {
     width: 50%;
     margin: auto;
+    text-align: center;
 }
 
 small {
@@ -57,7 +59,7 @@ nav {
 
 .menu li {
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
 }
 
 nav a {
@@ -111,17 +113,15 @@ a#par-ici {
 li.step {
     text-align: center;
     margin: 0;
-    width: 300px;
+    width: 33%;
+    padding: 35px;
     display: inline-block;
-}
-
-li.step:first-child {
-    margin-left: 15px;
+    vertical-align: top;
 }
 
 #desti {
     margin: auto;
-    padding: 25px;
+    padding: 50px 0;
     text-decoration: none;
 }
 
@@ -133,7 +133,7 @@ li.step:first-child {
 
 #evad {
     background-image: url(images/article-image-2.jpg)
-}
+    }
 
 .circuit article {
     width: 420px;
@@ -141,26 +141,19 @@ li.step:first-child {
     border-radius: 10px;
     display: inline-block;
     margin: 50px 10px;
-}
-
-.circuit article:first-of-type {
-    margin-left: 27%;
+    vertical-align: top;
+    text-align: left;
 }
 
 .blanc {
-    background-color: rgba(255, 255, 255, 0.849);
+    background-color: rgba(255, 255, 255, 0.945);
     width: 40%;
     height: 100%;
     text-align: center;
     border-radius: 9px 0px 0px 9px;
-    /*
-    */
+    display: inline-block;
 }
 
-.circuit div {
-    position: relative;
-    top: -15px;
-}
 
 .circuit h3 {
     border-bottom: 1px solid rgb(221, 221, 221);
@@ -196,8 +189,8 @@ li.step:first-child {
     display: block;
     width: 350px;
     margin: auto;
-    border-bottom: 1px solid rgb(2, 184, 221);
-    padding: 5px 0 25px 0;
+    border-bottom: 2px solid rgb(2, 184, 221);
+    padding: 5px 0 15px 0;
 }
 
 #contact {
@@ -212,6 +205,8 @@ li.step:first-child {
 
 form {
     font-size: 1.1em;
+    font-weight: bold;
+    color:#777777;
 }
 
 input {
@@ -226,8 +221,9 @@ input {
     background-color: rgb(2, 184, 221);
     color: white;
     border: none;
+    border-radius: 5px;
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 input[placeholder] {
