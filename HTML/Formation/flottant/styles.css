@@ -1,0 +1,15 @@
+img {
+    float: left;
+}
+
+/* empêcher le coulage */
+
+p {
+    clear: left;
+}
+
+.over {
+    overflow: hidden;
+    height: 50px;
+    background-color: coral;
+}
