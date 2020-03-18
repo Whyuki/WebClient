@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<systeme_solaire>
+
+    <planete>
+        <nom>Mercure</nom>
+        <diametre unité="km">4 878 </diametre>
+        <circonference unité="km">15 324,69</circonference>
+        <distance avec="soleil" precision="moyenne" unité="millions de km">57,8</distance>
+        <distance avec="terre" precision="moyenne" unité="millions de km">91,8</distance>
+        <satelitte>0</satelitte>
+        <temperature precision="moyenne" unité="°C">167</temperature>
+        <masse unité="10^24 kg">0,33</masse>
+        <periode_revolution unité="an">0,24</periode_revolution>
+        <axe>
+            <rotation unité="j">58</rotation>
+            <rotation unité="h">15</rotation>
+            <rotation unité="min">38</rotation>
+            <rotation unité="s"></rotation>
+        </axe>
+        <orbite_solaire>
+            <vitesse unité="km/s">47,78</vitesse>
+        </orbite_solaire>
+        <attraction_gravitationnelle unité="N/kg">3,78</attraction_gravitationnelle>
+        <masse_volumetrique unité="kg/dm³">5,42</masse_volumetrique>
+        <volume unité="10¹¹ km³">0,6077487</volume>
+    </planete>
+
+    <planete>
+        <nom>Venus</nom>
+        <diametre unité="km">12 104</diametre>
+        <circonference unité="km">38 019,55</circonference>
+        <distance avec="soleil" precision="moyenne" unité="millions de km">108,2</distance>
+        <distance avec="terre" precision="moyenne" unité="millions de km">41,4</distance>
+        <satelitte>0</satelitte>
+        <temperature precision="moyenne" unité="°C">465</temperature>
+        <masse unité="10^24 kg">4,87</masse>
+        <periode_revolution unité="an">0,615</periode_revolution>
+        <axe>
+            <rotation unité="j">243</rotation>
+            <rotation unité="h"></rotation>
+            <rotation unité="min"></rotation>
+            <rotation unité="s"></rotation>
+        </axe>
+        <orbite_solaire>
+            <vitesse unité="km/s">35,02</vitesse>
+        </orbite_solaire>
+        <attraction_gravitationnelle unité="N/kg">8,6</attraction_gravitationnelle>
+        <masse_volumetrique unité="kg/dm³">5,24</masse_volumetrique>
+        <volume unité="10¹¹ km³">9,2804721</volume>
+    </planete>
+
+    <planete>
+        <nom>Terre</nom>
+        <diametre unité="km">12 756</diametre>
+        <circonference unité="km">40 024</circonference>
+        <distance avec="soleil" precision="moyenne" unité="millions de km">149,6</distance>
+        <distance avec="terre" precision="moyenne" unité="millions de km"></distance>
+        <satelitte>1</satelitte>
+        <temperature precision="moyenne" unité="°C">15</temperature>
+        <masse unité="10^24 kg">5,9736</masse>
+        <periode_revolution unité="an">1</periode_revolution>
+        <axe>
+            <rotation unité="j"></rotation>
+            <rotation unité="h">23</rotation>
+            <rotation unité="min">56</rotation>
+            <rotation unité="s">4</rotation>
+        </axe>
+        <orbite_solaire>
+            <vitesse unité="km/s">29,78</vitesse>
+        </orbite_solaire>
+        <attraction_gravitationnelle unité="N/kg">9,81</attraction_gravitationnelle>
+        <masse_volumetrique unité="kg/dm³">5,45</masse_volumetrique>
+        <volume unité="10¹¹ km³">10,8321</volume>
+    </planete>
+
+    <planete>
+        <nom>Mars</nom>
+        <diametre unité="km">6 794</diametre>
+        <circonference unité="km">21 318,84</circonference>
+        <distance avec="soleil" precision="moyenne" unité="millions de km">227,9</distance>
+        <distance avec="terre" precision="moyenne" unité="millions de km">77,9</distance>
+        <satelitte>2</satelitte>
+        <temperature precision="moyenne" unité="°C">-65</temperature>
+        <masse unité="10^24 kg">0,642</masse>
+        <periode_revolution unité="an">1,88</periode_revolution>
+        <axe>
+            <rotation unité="j"></rotation>
+            <rotation unité="h">24</rotation>
+            <rotation unité="min">37</rotation>
+            <rotation unité="s">23</rotation>
+        </axe>
+        <orbite_solaire>
+            <vitesse unité="km/s">24,11</vitesse>
+        </orbite_solaire>
+        <attraction_gravitationnelle unité="N/kg">3,72</attraction_gravitationnelle>
+        <masse_volumetrique unité="kg/dm³">3,93</masse_volumetrique>
+        <volume unité="10¹¹ km³">1,6362143</volume>
+    </planete>
+
+    <planete>
+        <nom>Jupiter</nom>
+        <diametre unité="km">142 984</diametre>
+        <circonference unité="km">449 197,48</circonference>
+        <distance avec="soleil" precision="moyenne" unité="millions de km">778,6</distance>
+        <distance avec="terre" precision="moyenne" unité="millions de km">628,7</distance>
+        <satelitte>63</satelitte>
+        <temperature precision="moyenne" unité="°C">-54</temperature>
+        <masse unité="10^24 kg">1 899</masse>
+        <periode_revolution unité="an">11,86</periode_revolution>
+        <axe>
+            <rotation unité="j"></rotation>
+            <rotation unité="h">9</rotation>
+            <rotation unité="min">50</rotation>
+            <rotation unité="s"></rotation>
+        </axe>
+        <orbite_solaire>
+            <vitesse unité="km/s">13,07</vitesse>
+        </orbite_solaire>
+        <attraction_gravitationnelle unité="N/kg">24,892</attraction_gravitationnelle>
+        <masse_volumetrique unité="kg/dm³">1,32</masse_volumetrique>
+        <volume unité="10¹¹ km³">15 305,97</volume>
+    </planete>
+
+    <planete>
+        <nom>Saturne</nom>
+        <diametre unité="km">120 536</diametre>
+        <circonference unité="km">378 675,01</circonference>
+        <distance avec="soleil" precision="moyenne" unité="millions de km">1 433,50</distance>
+        <distance avec="terre" precision="moyenne" unité="millions de km">1 280,40</distance>
+        <satelitte>47</satelitte>
+        <temperature precision="moyenne" unité="°C">-150</temperature>
+        <masse unité="10^24 kg">568</masse>
+        <periode_revolution unité="an">29,46</periode_revolution>
+        <axe>
+            <rotation unité="j"></rotation>
+            <rotation unité="h">11</rotation>
+            <rotation unité="min">30</rotation>
+            <rotation unité="s"></rotation>
+        </axe>
+        <orbite_solaire>
+            <vitesse unité="km/s">9,66</vitesse>
+        </orbite_solaire>
+        <attraction_gravitationnelle unité="N/kg">10,584</attraction_gravitationnelle>
+        <masse_volumetrique unité="kg/dm³">0,68</masse_volumetrique>
+        <volume unité="10¹¹ km³">9 167,57</volume>
+    </planete>
+
+    <planete>
+        <nom>Uranus</nom>
+        <diametre unité="km">51 118</diametre>
+        <circonference unité="km">160 591,93</circonference>
+        <distance avec="soleil" precision="moyenne" unité="millions de km">2 872,50</distance>
+        <distance avec="terre" precision="moyenne" unité="millions de km">2 725,40</distance>
+        <satelitte>27</satelitte>
+        <temperature precision="moyenne" unité="°C">-210</temperature>
+        <masse unité="10^24 kg">86,8</masse>
+        <periode_revolution unité="an">84</periode_revolution>
+        <axe>
+            <rotation unité="j"></rotation>
+            <rotation unité="h">17</rotation>
+            <rotation unité="min">24</rotation>
+            <rotation unité="s"></rotation>
+        </axe>
+        <orbite_solaire>
+            <vitesse unité="km/s">6,81</vitesse>
+        </orbite_solaire>
+        <attraction_gravitationnelle unité="N/kg">8,624</attraction_gravitationnelle>
+        <masse_volumetrique unité="kg/dm³">1,27</masse_volumetrique>
+        <volume unité="10¹¹ km³">699,39123</volume>
+    </planete>
+
+    <planete>
+        <nom>Neptune</nom>
+        <diametre unité="km">49 528</diametre>
+        <circonference unité="km">155 596,80</circonference>
+        <distance avec="soleil" precision="moyenne" unité="millions de km">4 495,10</distance>
+        <distance avec="terre" precision="moyenne" unité="millions de km">4 346,9</distance>
+        <satelitte>13</satelitte>
+        <temperature precision="moyenne" unité="°C">-220</temperature>
+        <masse unité="10^24 kg">102</masse>
+        <periode_revolution unité="an">164,79</periode_revolution>
+        <axe>
+            <rotation unité="j"></rotation>
+            <rotation unité="h">16</rotation>
+            <rotation unité="min">3</rotation>
+            <rotation unité="s"></rotation>
+        </axe>
+        <orbite_solaire>
+            <vitesse unité="km/s">5,43</vitesse>
+        </orbite_solaire>
+        <attraction_gravitationnelle unité="N/kg">11,27</attraction_gravitationnelle>
+        <masse_volumetrique unité="kg/dm³">1,63</masse_volumetrique>
+        <volume unité="10¹¹ km³">636,1374964</volume>
+    </planete>
+
+</systeme_solaire>

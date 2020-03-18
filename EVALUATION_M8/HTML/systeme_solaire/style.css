@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px solid rgb(163, 170, 178);
+}
+
+th {
+    background-color: rgb(234, 236, 240);
+    padding: 5px 20px;
+}
+
+td {
+    text-align: right;
+    padding: 5px;
+}
+
+tr td:first-child {
+    text-align: left;
+}
+
+tr th:first-child {
+    padding: 0 30px;
+}
