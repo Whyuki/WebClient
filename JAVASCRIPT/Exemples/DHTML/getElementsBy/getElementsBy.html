@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>getElementsBy</title>
+  </head>
+  <body>
+    <p>
+      L'objet document est un sous-objet de window.
+      <br />
+      L'objet document possède trois méthodes principales:
+      <br />
+      getElementById(), getElementsByTagName() et getElementsByName().
+    </p>
+    <div id="myDiv">
+      <p>Un peu de texte <a href="">et un lien</a></p>
+    </div>
+    <script>
+      var div = document.getElementById("myDiv");
+      alert(div);
+    </script>
+    <script>
+      var divs = document.getElementsByTagName("div");
+      for (var i = 0, c = divs.length; i < c; i++) {
+        alert("Element n° " + (i + 1) + " : " + divs[i]);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--innerHTML permet de récupérer le code HTML enfant d'un élément en texte-->
+    <div id="myDiv">
+      <p>Un peu de texte <a>et un lien</a></p>
+    </div>
+    <script>
+      var div = document.getElementById("myDiv");
+      alert(div.innerHTML);
+
+      //définir un nouveau contenu
+      document.getElementById("myDiv").innerHTML =
+        "<blockquote>Je mets une citation à la place du paragraphe</blockquote>";
+      //ajouter un contenu à celui qui est en place (à éviter dans une boucle)
+      document.getElementById("myDiv").innerHTML +=
+        " et <strong>une portion mise en emphase</strong>.";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>getAttribute() et setAttribute()</title>
+  </head>
+  <body>
+
+    <!--
+        <a id="myLink" href="http://www.un_lien_quelconque.com"
+          >Un lien modifié dynamiquement</a
+        >
+        <script>
+          var link = document.getElementById("myLink");
+          var href = link.getAttribute("href"); // On récupère l'attribut « href »
+          alert(link);
+          alert(href);
+          link.setAttribute("href", "http://blog.crdp-versailles.fr/rimbaud/"); // on édite
+          alert(link);
+        </script>
+    -->
+
+    <!--ou-->
+    <a id="myLink" href="http://www.un_lien_quelconque.com"
+      >Un lien modifié dynamiquement</a
+    >
+    <script>
+      var link = document.getElementById("myLink");
+      var href = link.href;
+      alert(href);
+      link.href = "http://www.clg-rimbaud-aubergenville.ac-versailles.fr/";
+      alert(link);
+    </script>
+  </body>
+</html>
