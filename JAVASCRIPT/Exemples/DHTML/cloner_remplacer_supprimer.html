@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloner, remplacer, supprimer</title>
+  </head>
+  <body>
+    <!--Pour cloner un élément, on utilise cloneNode(), et on choisit avec (true) ou sans(false) ses enfants et ses attributs.-->
+
+    <!--Pour remplacer un élément par un autre, on utilise  replaceChild(), avec deuxparamètres, le nouvel élément et l'élément qu'on veut remplacer:-->
+    <div>
+      <p id="myP">Un peu de texte <a>et un lien</a></p>
+    </div>
+    <script>
+      var link = document.getElementsByTagName("a")[0];
+      var newLabel = document.createTextNode("et un hyperlien");
+      link.replaceChild(newLabel, link.firstChild);
+    </script>
+
+    <!--Pour supprimer un élément, on utilise removeChild(), avec le nœud enfant à retirer:-->
+    <script>
+      var link = document.getElementsByTagName("a")[0];
+      link.parentNode.removeChild(link);
+    </script>
+    <!--Pour vérifier la présence d'éléments enfant, on utilise hasChildNodes() :-->
+    <div>
+      <p id="myP">Un peu de texte <a>et un lien</a></p>
+    </div>
+    <script>
+      var paragraph = document.getElementsByTagName("p")[0];
+      alert(paragraph.hasChildNodes()); // Affiche true
+    </script>
+
+    <!--Pour insérer un élément avant un autre, on utilise insertBefore():-->
+    <p id="myP">Un peu de texte <a>et un lien</a></p>
+    <script>
+      var paragraph = document.getElementsByTagName("p")[0];
+      var emphasis = document.createElement("em"),
+        emphasisText = document.createTextNode(" en emphase légère ");
+      emphasis.appendChild(emphasisText);
+      paragraph.insertBefore(emphasis, paragraph.lastChild);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Changements de contenus</title>
+  </head>
+  <body>
+    <img
+      src="1cercle.gif"
+      alt="bouton1"
+      onmouseover="this.src='2cercle.gif'"
+      onmouseout="this.src='1cercle.gif'"
+      width="16"
+      height="16"
+    />
+
+    <p
+      onmouseover="this.innerHTML='Le texte est modifié.'"
+      onmouseout="this.innerHTML='Petit texte à modifier.'"
+    >
+      Petit texte à modifier.
+    </p>
+  </body>
+</html>

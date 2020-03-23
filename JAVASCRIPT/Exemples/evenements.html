@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les événements</title>
+  </head>
+  <body>
+    <span onclick="alert('Hello !');">Cliquez-moi !</span>
+    <span
+      onclick="alert('Voici le contenu de l\'élément que vous avez cliqué :\n\n' + this.innerHTML);"
+      >Cliquez-moi !</span
+    >
+    <input
+      id="input"
+      type="text"
+      size="50"
+      value="Cliquez ici !"
+      onfocus="this.value='Appuyez maintenant sur votre touche de tabulation.';"
+      onblur="this.value='Cliquez ici !';"
+    /><br /><br /><a
+      href="#"
+      onfocus="document.getElementById('input').value = 'Vous avez maintenant le focus sur le lien, bravo !';"
+      >Un lien bidon</a
+    >
+    <a
+      href="http://blog.crdp-versailles.fr/rimbaud/"
+      onclick="alert('Vous avez cliqué!');"
+      >Cliquez-moi !</a
+    >
+    <a
+      href="http://blog.crdp-versailles.fr/rimbaud/"
+      onclick="alert('Vous avez cliqué !'); return false;"
+      >Cliquez-moi !</a
+    >
+    <a href="#" onclick="alert('Vous avez cliqué !'); return false;"
+      >Cliquez-moi !</a
+    >
+  </body>
+</html>

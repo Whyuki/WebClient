@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nextSibling et previousSibling</title>
+  </head>
+  <body>
+    <div>
+      <p id="myP">
+        Un peu de texte, <a>un lien</a> et
+        <strong>une portion en emphase</strong>
+      </p>
+    </div>
+    <script>
+      var paragraph = document.getElementById("myP");
+      var first = paragraph.firstChild;
+      var next = first.nextSibling;
+      alert(next.firstChild.data); // Affiche « un lien »
+    </script>
+
+    <div>
+      <p id="myP">Un peu de texte <a>et un lien</a></p>
+      <p>
+        Attention! Les espaces et retours à la ligne effectués dans le code HTML
+        sontgénéralement considérés comme des nœuds textuels par les
+        navigateurs. On utilise
+        alorsfirstElementChild,lastElementChild,nextElementSiblingetpreviousElementSibling,
+        non supportés par IE8 et inférieur.
+      </p>
+    </div>
+    <script>
+      var paragraph = document.getElementById("myP");
+      var child = paragraph.lastChild; // On prend le dernier enfant
+      while (child) {
+        if (child.nodeType === 1) {
+          // C'est un élément HTML
+          alert(child.firstChild.data);
+        } else {
+          // C'est certainement un noeud textuel
+          alert(child.data);
+        }
+        child = child.previousSibling; // À chaque tour de boucle, on prend l'enfant précédent
+      }
+    </script>
+  </body>
+</html>
