@@ -16,6 +16,10 @@ h1 {
   margin: 0;
 }
 
+#logo {
+  margin-top: 3%;
+}
+
 table {
   margin: auto;
   width: 100%;
