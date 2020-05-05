@@ -1,0 +1,57 @@
+body {
+  border: 2px solid rgb(154, 00, 00);
+  border-radius: 8px 8px;
+  height: 960px;
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+
+h1,
+h2, #logo {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  }
+
+table {
+  margin: auto;
+  width: 100%;
+}
+
+tr,
+td {
+  border: 2px solid black;
+  padding: 0.3%;
+}
+
+h1,
+h2,
+td {
+  background-color: rgb(154, 00, 00);
+  color: white;
+}
+
+.entete td {
+  text-align: center;
+  color: rgb(241, 228, 53);
+  background-color: rgb(154, 00, 00);
+  font-weight: bold;
+}
+
+/*
+pas de href : visited par defaut /!\
+*/
+a:link {
+  text-decoration-line: none;
+  color: rgb(241, 228, 53);
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+a:visited {
+  color: #e3664b;
+}
